@@ -1,7 +1,68 @@
 * {
     box-sizing: border-box;
+    text-align: center;
+    color: white;
 }
 
 body {
-    background-color: mistyrose;
+    background-image: linear-gradient(to right, purple, navy);
+    font-family: Verdana, sans-serif;
+}
+
+img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.links a {
+    background-color: navy;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+}
+
+.links a:hover {
+    background-color: blue;
+}
+
+.about {
+    margin-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: larger;
+}
+
+.more-about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: larger;
+}
+
+.project-section {
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    width: 80%;
+}
+
+.project {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
