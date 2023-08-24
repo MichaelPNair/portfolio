@@ -41,7 +41,9 @@ img {
     margin-top: 50px;
     padding-left: 20%;
     padding-right: 20%;
-    font-size: larger;
+    font-size: 3em;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .more-about {
@@ -49,12 +51,24 @@ img {
     margin-bottom: 50px;
     padding-left: 20%;
     padding-right: 20%;
-    font-size: larger;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    background-color: black;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .project-section {
     display: flex;
     justify-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#projects {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .projects {
