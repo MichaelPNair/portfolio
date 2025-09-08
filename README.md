@@ -6,6 +6,7 @@ This is a website that will serve as my portfolio. This is done in HTML and CSS.
 ## Technologies Used
 - HTML
 - CSS
+- Javascript
 
 ## Thanks
 Designed and coded by Michael Nair.
